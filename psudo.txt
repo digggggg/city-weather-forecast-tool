@@ -1,11 +1,26 @@
 Search Bar 
-
+    user data is read
+    user data is saved to local
+    btn is pressed to execute that function
 Saved Search History 
-    When history is clicked then that cities name is used 
+    When history is clicked then that cities name is used
+    search history is saved
+
+        local storage is displayed 
+        saved items can be clicked and then displays information
 
 
 Jumbotron that displays Weather data for the city that is searched
     UV Index is color coated 
 
+        fetch request from weather api for data and icons
+
+            if UV index > 7
+                lorem.attr("id, uv-high") *the attribute will change the color"
+            etc....
+
 5 day forecast for the selected city
     weather icons related to forecast
+
+    moment js for date 
+    weather api for icon, temp, and humidity
