@@ -1,0 +1,11 @@
+Search Bar 
+
+Saved Search History 
+    When history is clicked then that cities name is used 
+
+
+Jumbotron that displays Weather data for the city that is searched
+    UV Index is color coated 
+
+5 day forecast for the selected city
+    weather icons related to forecast
