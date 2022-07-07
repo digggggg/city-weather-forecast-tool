@@ -15,20 +15,33 @@
 </header>
 <main>
     <div class="container">
-            <div class="row col-lg-3">
+        <div class="row">
+            <div class="col-lg-3">
                 <div>
                     <form>
                         <label for="city-search">Search for a City:</label>
                         <input id="city-search" name="city-search" placeholder="Find your city..." type="text">
                     </form>
-                    <button type="submit" id="sub-btn"></button>
+                    <button type="submit" id="sub-btn" value="submit">Send</button>
                 </div>
+                <div id="hist-list"></div>
             </div>
+            <div class="col-lg-9 jumbotron">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="forecast">
+
+            </div>
+        </div>
     </div>
 </main>
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
+<script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    ></script>
 <script src="script.js"></script>
 
 </body>
